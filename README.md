@@ -78,32 +78,54 @@ Control Flow Graph
 
 ---
 
-## Тестирање според Multiple Condition
+# Тестирање според Multiple Condition
 
-### borrowBook услов
+## `borrowBook` услов
 
+### Услов:
 ```java
 (title.isEmpty() || author.isEmpty())
 ```
 
-| title.isEmpty() |	author.isEmpty() | Тест |
-| T |	T |	lib.borrowBook("", "") |
-| T |	F |	lib.borrowBook("", "A") |
-| F |	T |	lib.borrowBook("Test", "") |
-| F |	F |	lib.borrowBook("Test", "A") |
+| title.isEmpty() | author.isEmpty() | Тест |
+|---|---|---|
+| T | T | `lib.borrowBook("", "")` |
+| T | F | `lib.borrowBook("", "A")` |
+| F | T | `lib.borrowBook("Test", "")` |
+| F | F | `lib.borrowBook("Test", "A")` |
 
-Минимален број на тест случаи: 4
+### Минимален број на тест случаи:
+```text
+4
+```
 
-(покриено со borrowBookMultipleConditionTest)
+### Покриеност:
+```text
+borrowBookMultipleConditionTest
+```
 
-searchBookByTitle услов
-(book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed())
-title match	not borrowed	Тест
-T	T	постои книга и не е позајмена
-T	F	книга е позајмена
-F	T	различен наслов
-F	F	различен наслов + позајмена
+---
 
-Минимален број на тест случаи: 4
+## `searchBookByTitle` услов
 
-(покриено со searchBookMultipleConditionTest)
+### Услов:
+```java
+book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()
+```
+
+| title match | not borrowed | Тест |
+|---|---|---|
+| T | T | постои книга и не е позајмена |
+| T | F | книга е позајмена |
+| F | T | различен наслов |
+| F | F | различен наслов + позајмена |
+
+### Минимален број на тест случаи:
+```text
+4
+```
+
+### Покриеност:
+```text
+searchBookMultipleConditionTest
+```
