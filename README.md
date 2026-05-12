@@ -122,7 +122,7 @@ book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()
 
 ### Минимален број на тест случаи:
 ```text
-4
+3
 ```
 
 ### Покриеност:
