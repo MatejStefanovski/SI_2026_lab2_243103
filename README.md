@@ -12,7 +12,7 @@
 
 ### borrowBook
 
-<img width="679" height="1086" alt="borrowBook drawio" src="https://github.com/user-attachments/assets/510f4ee9-faaf-49dd-b725-079d2584c425" />
+<img width="679" height="1086" alt="borrowBook drawio" src="https://github.com/user-attachments/assets/14b81a7d-5880-407f-9973-7cad8e44d88a" />
 
 ---
 
