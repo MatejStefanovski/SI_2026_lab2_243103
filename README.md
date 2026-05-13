@@ -8,11 +8,12 @@
 
 ### searchBookByTitle
 
-Control Flow Graph
+<img width="669" height="1081" alt="SearchBookByTitle drawio" src="https://github.com/user-attachments/assets/4a4a21d2-9fbc-4070-9629-9266b2226300" />
 
 ### borrowBook
 
-Control Flow Graph
+
+
 ---
 
 ## Цикломатска комплексност
