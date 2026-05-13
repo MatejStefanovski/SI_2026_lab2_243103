@@ -27,7 +27,7 @@
 - if (title match && !borrowed)
 - if (results.isEmpty())
 
-**M = 4 + 1 = 5**
+**M = 5 + 1 = 6**
 
 ---
 
@@ -40,7 +40,7 @@
 - if (book match)
 - if (!book.isBorrowed())
 
-**M = 4 + 1 = 5**
+**M = 5 + 1 = 6**
 
 ---
 
